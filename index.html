@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>freeCodeCamp Build a Personal Portfolio Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Damion|Patua+One|Varela+Round">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+</head>
+
+<body>
+  <div class="pageWrapper">
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="brand"><a href="/" title="Return to the top" class="brand__link">tophergates</a></h1>
+        <a id="hamburger" href="#navbar" class="menu-toggle-button">
+          <svg class="menu-toggle-svg" viewbox="0 0 48 48">
+            <title>Menu</title>
+            <rect x="15.5" y="16.5" width="20" height="3" />
+            <rect x="15.5" y="23.5" width="20" height="3" />
+            <rect x="15.5" y="30.5" width="20" height="3" />
+          </svg>
+        </a>
+        <nav class="nav" id="navbar">
+          <h2 class="nav__title">Primary Navigation:</h2>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#welcome-section" title="Get to know tophergates" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#projects" title="Projects tophergates has worked on" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#experience" title="Web development experience" class="nav-link">Experience</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section about" id="welcome-section">
+        <div class="section__inner">
+          <article class="whoami">
+            <div class="whoami__image-wrapper">
+              <img class="whoami__image" src="https://avatars2.githubusercontent.com/u/21190284?s=460&v=4" alt="Picture of tophergates">
+            </div>
+            <div class="whoami__body">
+              <h1 class="whoami__title">whoami</h1>
+              <p class="whoami__description">Hello. My name is Chris, but I am better known around the interwebs as <a
+                  href="https://github.com/tophergates" target="_blank">tophergates</a>. I am a web developer, content
+                creator, husband, and proud father of two amazing girls. Web development isn't just <em>what I do</em>,
+                it's a significant part of <em>who I am</em> and is one of the key things in my life that I truly
+                love to do and am passionate about.</p>
+              <p class="whoami__fun-fact"><em>Fun Fact</em>: In 2018 I was selected as a recipient of the
+                <a href="https://grow.google/programs/udacity/" target="_blank">Grow with Google Scholarship</a> and
+                completed the program to receive a Mobile Web Specialist Nanodegree.</p>
+              <ul class="social-buttons">
+                <li class="social-button"><a href="https://github.com/tophergates" title="Contact tophergates on Github"
+                    id="profile-link" class="github" target="_blank"><span aria-hidden="true">Github</span></a></li>
+                <li class="social-button"><a href="https://freecodecamp.com/tophergates" title="Contact tophergates on freeCodeCamp"
+                    class="freeCodeCamp" target="_blank"><span aria-hidden="true">freeCodeCamp</span></a></li>
+                <li class="social-button"><a href="https://codepen.com/tophergates" title="Contact tophergates on Codepen"
+                    class="codepen" target="_blank"><span aria-hidden="true">Codepen</span></a></li>
+                <li class="social-button"><a href="https://linkedin.com/in/tophergates" title="Contact tophergates on LinkedIn"
+                    class="linkedin" target="_blank"><span aria-hidden="true">LinkedIn</span></a></li>
+                <li class="social-button"><a href="https://twitch.tv/tophergates" title="Contact tophergates on Twitch"
+                    class="twitch" target="_blank"><span aria-hidden="true">Twitch</span></a></li>
+                <li class="social-button"><a href="https://twitter.com/tophergates" title="Contact tophergates on Twitter"
+                    class="twitter" target="_blank"><span aria-hidden="true">Twitter</span></a></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <article class="featured-project">
+          <div class="section__inner">
+            <figure class="featured-project__image-wrapper">
+              <img src="./images/restaurant-reviews.jpg" alt="Project Name" class="featured-project__image">
+              <figcaption class="featured-project__section-header">
+                <h2 class="featured-project__section-title">Featured Project</h2>
+              </figcaption>
+            </figure>
+            <header class="featured-project__header">
+              <h3 class="featured-project__title">Restaurant Reviews</h3>
+              <ul class="featured-project__tech-list" aria-describedby="tech-list-title">
+                <li class="tech-list__title">
+                  <h4 id="tech-list-title" aria-hidden="true">Technology utilized for the Restaurant Reviews project:</h4>
+                </li>
+                <li class="tech-list__item html5">HTML5</li>
+                <li class="tech-list__item css3">CSS3</li>
+                <li class="tech-list__item sass">SASS</li>
+                <li class="tech-list__item js">Javascript</li>
+                <li class="tech-list__item node">Node JS</li>
+                <li class="tech-list__item babel">Babel</li>
+                <li class="tech-list__item webpack">Webpack</li>
+                <li class="tech-list__item gulp">Gulp</li>
+                <li class="tech-list__item git">Git</li>
+              </ul>
+              <ul class="featured-project__links">
+                <li class="featured-project__link"><a href="https://restaurant-reviews.netlify.com" class="demo-link"
+                    title="View the Restuarant Reviews application demo" target="_blank">Demo</a></li>
+                <li class="featured-project__link"><a href="https://github.com/tophergates/mws-restaurant-reviews"
+                    class="source-link" title="View the Restaurant Reviews application source code" target="_blank">Source</a></li>
+              </ul>
+            </header>
+            <p class="featured-project__description">
+              <span class="featured-project__date" aria-label="Project completion date">July 2018</span>
+              The Restaurant Reviews web application was created as the main project during the <em>Grow with Google</em>
+              scholarship program for the Mobile Web Specialist Nanodegree. The application was written using Vanilla
+              JavaScript without the use of frameworks or libraries. The primary focus of the project was to create a
+              progressive web application which is offline-enabled through the use of Service Workers, IndexedDB, and
+              the Cache API while maintaining accessibility standards and achieving high performance.
+            </p>
+            <ul class="featured-project__feature-list" aria-describedby="feature-list-title">
+              <li class="feature-list__title">
+                <h4 id="feature-list-title" aria-hidden="true">Restaurant Reviews project features:</h4>
+              </li>
+              <li class="feature-list__item">Responsive Design</li>
+              <li class="feature-list__item">Progressive Web Application</li>
+              <li class="feature-list__item">Offline-enabled</li>
+              <li class="feature-list__item">Adheres to Accessibility Standards</li>
+            </ul>
+          </div>
+        </article>
+        <article class="projects">
+          <div class="section__inner">
+            <h2 class="projects__title">Other Projects:</h2>
+            <ul class="project-list">
+              <li class="project-tile">
+                <a href="#" title="Pet Hero">
+                  <img class="project__image" src="./images/pet-hero.jpg" alt="Pet Hero application">
+                  <div class="project__info">
+                    <h3 class="project__name">Pet Hero (work in progress)</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                      <li class="tech-item js">Javascript</li>
+                      <li class="tech-item react">React</li>
+                      <li class="tech-item mongodb">MongoDB</li>
+                      <li class="tech-item node">NodeJS</li>
+                      <li class="tech-item express">Express</li>
+                    </ul>
+                    <p class="project__description">Project to pair pet lovers with pets available for adoption.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-tile">
+                <a href="https://tophergates.github.io/fcc-product-landing-page" title="Product Landing Page" target="_blank">
+                  <img class="project__image" src="./images/product-page.jpg" alt="Sample Product Landing Page with responsive design">
+                  <div class="project__info">
+                    <h3 class="project__name">Product Landing Page</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                    </ul>
+                    <p class="project__description">Sample (fake) product landing page project.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-tile">
+                <a href="https://codepen.io/tophergates/pen/EwGZNg" title="eCommerce SPA" target="_blank">
+                  <img class="project__image" src="./images/shopping-cart.jpg" alt="Sample eCommerce single page application developed with Vanilla JS">
+                  <div class="project__info">
+                    <h3 class="project__name">eCommerce Site</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                      <li class="tech-item js">Javascript</li>
+                      <li class="tech-item babel">Babel</li>
+                    </ul>
+                    <p class="project__description">Sample (fake) eCommerce site. Single page application developed in
+                      Vanilla JS.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-tile">
+                <a href="https://codepen.io/tophergates/pen/xXjmQL" title="Calculator" target="_blank">
+                  <img class="project__image" src="./images/calculator.jpg" alt="Simple calculator">
+                  <div class="project__info">
+                    <h3 class="project__name">Calculator</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                      <li class="tech-item js">Javascript</li>
+                      <li class="tech-item babel">Babel</li>
+                    </ul>
+                    <p class="project__description">Functioning calculator made with HTML, CSS, and Javascript.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-tile">
+                <a href="https://codepen.io/tophergates/pen/MEvvEZ" title="Bubble Pop!" target="_blank">
+                  <img class="project__image" src="./images/bubble-pop.jpg" alt="Bubble pop game">
+                  <div class="project__info">
+                    <h3 class="project__name">Bubble Pop! (game)</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                      <li class="tech-item js">Javascript</li>
+                    </ul>
+                    <p class="project__description">Pop the bubbles before they bubble to the top! I developed this for
+                      my kids to play.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-tile">
+                <a href="https://tophergates.github.io/fcc-tribute-page" title="Tribute Page" target="_blank">
+                  <img class="project__image" src="./images/tribute-page.jpg" alt="Tribute Page">
+                  <div class="project__info">
+                    <h3 class="project__name">Tribute Page</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                      <li class="tech-item js">Javascript</li>
+                    </ul>
+                    <p class="project__description">Sample (fake) tribute page in honor of the greatest and best band
+                      in the world.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="project-tile">
+                <a href="http://pickems.appoverdrive.com/login.php" title="Football Pick'ems" target="_blank">
+                  <img class="project__image" src="./images/pickems.jpg" alt="Football Pick'ems web application">
+                  <div class="project__info">
+                    <h3 class="project__name">Football Pick'ems</h3>
+                    <ul class="tech">
+                      <li class="tech-item--title">Tech:</li>
+                      <li class="tech-item html5">HTML5</li>
+                      <li class="tech-item css3">CSS3</li>
+                      <li class="tech-item js">Javascript</li>
+                      <li class="tech-item php">PHP</li>
+                      <li class="tech-item mysql">MySQL</li>
+                    </ul>
+                    <p class="project__description">Personal project. Football pick'ems website for friends and
+                      family fun.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience" id="experience">
+          <div class="section__inner">
+            <h2 class="experience__title">Experience With:</h2>
+            <ul class="experience-list">
+              <li class="html5">HTML5</li>
+              <li class="css3">CSS3</li>
+              <li class="sass">SASS</li>
+              <li class="js">Javascript</li>
+              <li class="jquery">jQuery</li>
+              <li class="d3">D3.js</li>
+              <li class="react">React</li>
+              <li class="angular">Angular</li>
+              <li class="vue">Vue</li>
+              <li class="node">Node JS</li>
+              <li class="express">Express</li>
+              <li class="php">PHP</li>
+              <li class="mysql">MySQL</li>
+              <li class="postgres">PostgreSQL</li>
+              <li class="mongodb">MongoDB</li>
+              <li class="mocha">Mocha</li>
+              <li class="jasmine">Jasmine</li>
+              <li class="babel">Babel</li>
+              <li class="webpack">Webpack</li>
+              <li class="grunt">Grunt</li>
+              <li class="gulp">Gulp</li>
+              <li class="git">Git</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Made with <span class="heart">♥</span> by tophergates</p>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
